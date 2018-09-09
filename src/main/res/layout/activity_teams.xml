@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".TeamsActivity">
+
+    <Button
+        android:id="@+id/teams_home"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/word" />
+
+
+    <Spinner
+        android:id="@+id/teams_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:entries="@array/teams"
+        android:gravity="center"
+        android:popupBackground="@drawable/button_background"
+        android:textAlignment="center" />
+
+
+    <ListView
+        android:id="@+id/teams_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/button_background"
+    android:gravity="center"
+    android:orientation="horizontal"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/team1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/team1logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/zmlk_logo" />
+
+        <TextView
+            android:id="@+id/team1name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zmlk"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/team1score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:padding="10dp"
+            android:text="0 "
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/status_ticket_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="لم تبدا بعد"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date_ticket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01/09/2018"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/time_ticket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="21:00"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/stadium_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                tools:text="استاد القاهرة الدولي" />
+
+            <TextView
+                android:id="@+id/goals_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/button_onoff_indicator_on"
+                android:text="الاهداف"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/team2score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:padding="10dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/team2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/team2logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ahly_logo" />
+
+        <TextView
+            android:id="@+id/team2name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ahly"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>

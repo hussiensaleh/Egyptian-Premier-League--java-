@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="8dp"
+    tools:context=".TableActivity">
+    <Button
+        android:id="@+id/table_home"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/word" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        android:paddingTop="1dp">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="م"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="الفريق"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="ل"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="ف"
+            android:textAlignment="center"
+            android:textColor="#2fff00" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="ت"
+            android:textAlignment="center"
+            android:textColor="#ffcc00" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="خ"
+            android:textAlignment="center"
+            android:textColor="#ff0000" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="+/-"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="نقاط"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/table_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+</LinearLayout>

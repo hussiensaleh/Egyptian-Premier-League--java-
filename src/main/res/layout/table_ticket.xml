@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:orientation="horizontal"
+        android:paddingTop="1dp">
+
+        <TextView
+            android:id="@+id/rank_ticket"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="م"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/name_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="الفريق"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/played_ticket"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="ل"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/win_ticket"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="ف"
+            android:textAlignment="center"
+            android:textColor="#2fff00" />
+
+        <TextView
+            android:id="@+id/draw_ticket"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="ت"
+            android:textAlignment="center"
+            android:textColor="#ffcc00" />
+
+        <TextView
+            android:id="@+id/lose_ticket"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="خ"
+            android:textAlignment="center"
+            android:textColor="#ff0000" />
+
+        <TextView
+            android:id="@+id/plus_ticket"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/mines_ticket"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="-"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/farq_ticket"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="+/-"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/points_ticket"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="نقاط"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</LinearLayout>
